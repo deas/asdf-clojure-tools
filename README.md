@@ -1,9 +1,9 @@
 <div align="center">
 
-# asdf-clj [![Build](https://github.com/deas/asdf-clj/actions/workflows/build.yml/badge.svg)](https://github.com/deas/asdf-clj/actions/workflows/build.yml) [![Lint](https://github.com/deas/asdf-clj/actions/workflows/lint.yml/badge.svg)](https://github.com/deas/asdf-clj/actions/workflows/lint.yml)
+# asdf-clojure-tools [![Build](https://github.com/deas/asdf-clojure-tools/actions/workflows/build.yml/badge.svg)](https://github.com/deas/asdf-clojure-tools/actions/workflows/build.yml) [![Lint](https://github.com/deas/asdf-clojure-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/deas/asdf-clojure-tools/actions/workflows/lint.yml)
 
 
-[clj](https://github.com/clojure/brew-install) plugin for the [asdf version manager](https://asdf-vm.com).
+FIXME: [brew-install](https://github.com/clojure/brew-install) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -26,22 +26,22 @@
 Plugin:
 
 ```shell
-asdf plugin add clj
+asdf plugin add clojure-tools
 # or
-asdf plugin add clj https://github.com/deas/asdf-clj.git
+asdf plugin add clojure-tools https://github.com/deas/asdf-clojure-tools.git
 ```
 
-clj:
+clojure-tools:
 
 ```shell
 # Show all installable versions
-asdf list-all clj
+asdf list-all clojure-tools
 
 # Install specific version
-asdf install clj latest
+asdf install clojure-tools latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global clj latest
+asdf global clojure-tools latest
 
 # Now clj commands are available
 clj --help
@@ -54,7 +54,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/deas/asdf-clj/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/deas/asdf-clojure-tools/graphs/contributors)!
 
 # License
 
