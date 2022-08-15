@@ -7,8 +7,8 @@ set -euo pipefail
 GH_REPO="https://github.com/clojure/brew-install"
 DOWNLOAD_BASE="https://download.clojure.org/install"
 
-TOOL_NAME="clj"
-TOOL_TEST="clj --help"
+TOOL_NAME="clojure"
+TOOL_TEST="clojure --help"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"

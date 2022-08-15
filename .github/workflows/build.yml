@@ -13,10 +13,14 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
+          # - macos-latest
     runs-on: ${{ matrix.os }}
     steps:
+      - name: Set up openjdk-jre
+        run: >
+         sudo apt-get update &&
+         sudo apt-get install --no-install-recommends --yes openjdk-8-jre
       - name: asdf_plugin_test
         uses: asdf-vm/actions/plugin-test@v1
         with:
-          command: clj --help
+          command: clojure --help
